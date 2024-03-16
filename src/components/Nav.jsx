@@ -41,7 +41,7 @@ const Nav = () => {
         <Dialog.Panel className="fixed inset-y-0 right-0 padding-x z-50 w-full overflow-y-auto py-8 sm:max-w-sm backdrop-blur-3xl">
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Nike</span>
+              <span className="sr-only">FR Society</span>
               <img src={headerLogo} alt="Logo" width={130} height={29} />
             </a>
             <button

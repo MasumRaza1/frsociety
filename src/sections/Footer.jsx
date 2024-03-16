@@ -17,8 +17,7 @@ const Footer = () => {
             />
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
-            Get shoes ready for the new term at your nearest Nike store. Find
-            Your perfect Size In Store. Get Rewards
+          FR Society is committed to fostering positive change and empowerment within communities. Join Us.
           </p>
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon) => (
@@ -62,12 +61,12 @@ const Footer = () => {
             height={20}
             className="rounded-full m-0"
           />
-          <p>Copyright Nike. All rights reserved.</p>
+          <p>Copyright FR Society. All rights reserved.</p>
         </div>
         <p className="flex items-center gap-2">
           Give it a ⭐ on{" "}
           <a
-            href="https://github.com/sohomofficial/nike"
+            href="https://github.com/MasumRaza1"
             className="font-montserrat"
             target="_blank"
             rel="noreferrer"

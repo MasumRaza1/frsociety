@@ -16,29 +16,25 @@ const SpecialOffer = () => {
       </div>
       <div className="flex flex-1 flex-col">
         <h2 className="text-4xl font-palanquin font-bold">
-          <span className="text-coral-red">Special </span>
-          Offer
+          <span className="text-coral-red">Charitable </span>
+          Opportunity
         </h2>
         <p className="mt-4 info-text">
-          Embark on a shopping journey that redefines your experience with
-          unbeatable deals. From premier selections to incredible savings, we
-          offer unparalleled value that sets us apart.
+        We believe in the power of giving back. Our mission is to create opportunities for positive change by supporting various charitable causes and initiatives. Whether it's providing access to education, healthcare, or essential resources, we are dedicated to making a difference in the lives of those in need. 
         </p>
         <p className="mt-6 info-text">
-          Navigate a realm of possibilities designed to fulfill your unique
-          desires, surpassing the loftiest expectations. Your journey with us is
-          nothing short of exceptional.
+        Join us in our commitment to making a difference. Whether through donations, volunteering, or spreading awareness, every action counts. Together, we can create a ripple effect of kindness and generosity, transforming lives and building stronger, more compassionate communities.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
           <Button>
-            Shop Now
+            Donate Now
             <img
               src={arrowRight}
               alt="Arrow right icon"
               className="ml-2 rounded-full w-5 h-5"
             />
           </Button>
-          <Button bg="bg-black">Learn more</Button>
+          <Button bg="bg-black">Become a Volunteer</Button>
         </div>
       </div>
     </section>

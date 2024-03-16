@@ -24,7 +24,7 @@ import {
 export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
+  { href: "#products", label: "Galary" },
   { href: "#contact-us", label: "Contact Us" },
 ];
 
@@ -44,82 +44,84 @@ export const shoes = [
 ];
 
 export const statistics = [
-  { value: "1k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
+  { value: "500+", label: "Communities" },
+  { value: "25k+", label: "People Served" },
+  { value: "1k+", label: "Volunteers" },
 ];
+
+
 
 export const products = [
   {
     imgURL: shoe4,
-    name: "Nike Air Jordan-01",
-    price: "$200.20",
+    name: "Purification of wealth",
+    price: "❤️",
   },
   {
     imgURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "$210.20",
+    name: "Spritual Growth",
+    price: "❤️",
   },
   {
     imgURL: shoe6,
-    name: "Nike Air Jordan-100",
-    price: "$220.20",
+    name: "Blessing and Barakah",
+    price: "❤️",
   },
   {
     imgURL: shoe7,
-    name: "Nike Air Jordan-001",
-    price: "$230.20",
+    name: "Zakat",
+    price: "❤️✨",
   },
 ];
 
 export const services = [
   {
     imgURL: truckFast,
-    label: "Free shipping",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+    label: "Community Outreach",
+    subtext: "We extend our services to communities in need, free of charge.",
   },
   {
     imgURL: shieldTick,
-    label: "Secure Payment",
-    subtext:
-      "Experience worry-free transactions with our secure payment options.",
+    label: "Financial Security",
+    subtext: "Trust in our secure payment options for worry-free transactions.",
   },
   {
     imgURL: support,
-    label: "Love to help you",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
+    label: "Dedicated Assistance",
+    subtext: "Count on our team for unwavering support throughout your journey.",
   },
 ];
+
 
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: "Morich Brown",
-    rating: 4.5,
+    customerName: "jjf",
+    rating: 5.0,
     feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+      "The impact of the charity work done by Society Charity is truly remarkable. I'm impressed by their dedication and commitment to making a positive difference in the world.",
   },
   {
     imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
+    customerName: "Hsha",
+    rating: 5.0,
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      "Society Charity's efforts have touched the lives of many, including mine. Their work is inspiring, and I'm grateful for the opportunity to support such a worthy cause.",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Products",
+    title: "Initiatives",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "Education Programs", link: "/" },
+      { name: "Healthcare Services", link: "/" },
+      { name: "Community Development", link: "/" },
+      { name: "Environmental Projects", link: "/" },
+      { name: "Disaster Relief Efforts", link: "/" },
     ],
   },
+
   {
     title: "Help",
     links: [
@@ -133,7 +135,7 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+      { name: "help.frsociety@gmail.com", link: "mailto:help.frsociety@gmail.com" },
       { name: "+000-000-000", link: "tel:+000000000" },
     ],
   },

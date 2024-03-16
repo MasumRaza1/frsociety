@@ -9,20 +9,18 @@ const SuperQuality = () => {
     >
       <div className="flex flex-1 flex-col">
         <h2 className="font-palanquin capitalize text-4xl lg:max-w-lg font-bold">
-          We Provide You
-          <span className="text-coral-red"> Super </span>
-          <span className="text-coral-red">Quality </span> Shoes
+          We Provide
+          <span className="text-coral-red"> Best </span>
+          <span className="text-coral-red">Aid </span>  to Communities
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+       FR Society stands as a beacon of hope, dedicated to transforming lives and fostering positive change. Through our unwavering commitment to empowerment and innovation, we strive to uplift communities, inspire progress, and create a brighter future for all. With every initiative, we aim to address pressing issues, harnessing the power of collaboration and compassion to make a meaningful impact.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
-          Our dedication to detail and excellence ensures your satisfaction
+        Join us on this journey of empowerment, where every step forward brings us closer to a more equitable and prosperous tomorrow...
         </p>
         <div className="mt-11">
-          <Button>View details</Button>
+          <Button>Join Us: Become a Volunteer</Button>
         </div>
       </div>
       <div className="flex-1 flex justify-center items-center">
